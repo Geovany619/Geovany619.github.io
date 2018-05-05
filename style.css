@@ -1,9 +1,26 @@
 .container {
   display: flex; /* or inline-flex */
   flex-direction: row;
-    justify-content: space-evenly;
-
+  justify-content: space-evenly;
 }
 .item {
   order: <integer>; /* default is 0 */
+  border:  5px solid;
+  background: #cbdbff;
+  width:  800px;
+  text-align: center;
+  font-weight:bold;
+}
+.center{
+	text-align: center;
+}
+
+.anime {
+	color: #1C1616;
+}
+
+.carousel-container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  justify-content: center;
 }
