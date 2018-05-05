@@ -1,0 +1,9 @@
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.item {
+  order: <integer>; /* default is 0 */
+}
